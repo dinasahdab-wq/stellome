@@ -1,0 +1,25 @@
+name: Bug report
+description: Something does not work or shows wrong information
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what did you see instead?
+    validations:
+      required: true
+  - type: input
+    id: protein
+    attributes:
+      label: Protein or pathway involved (if any)
+      placeholder: e.g. TP53, Immune System
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and system
+      placeholder: e.g. Chrome 130 on Windows 11
+  - type: textarea
+    id: extra
+    attributes:
+      label: Screenshot or console errors

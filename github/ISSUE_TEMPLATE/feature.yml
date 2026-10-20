@@ -1,0 +1,19 @@
+name: Feature or analysis idea
+description: Suggest something Stellome should do
+labels: [enhancement]
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Which scientific question would this help answer?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Stellome to show or do?
+  - type: textarea
+    id: data
+    attributes:
+      label: Data sources or references
+      description: Datasets (with licence) or papers describing the method.
