@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use Stellome, please cite it as below, together with STRING, Reactome and UniProt."
+title: "Stellome: an interactive map of the human proteome"
+abstract: >-
+  Stellome is a self-contained interactive map of every human protein in STRING and their
+  high-confidence interactions, grouped by Reactome top-level pathway, with pathway crosstalk
+  analysis, edge bundling, data overlays and live links to UniProt, Open Targets and AlphaFold DB.
+type: software
+authors:
+  - given-names: Dina
+    family-names: Ahdab
+license: MIT
+version: 0.1.0
+date-released: 2026-10-20
+repository-code: "https://github.com/USERNAME/stellome"
+url: "https://USERNAME.github.io/stellome/"
+keywords:
+  - proteomics
+  - protein-protein interactions
+  - interactome
+  - network visualization
+  - STRING
+  - Reactome
+  - pathway crosstalk
+  - bioinformatics
